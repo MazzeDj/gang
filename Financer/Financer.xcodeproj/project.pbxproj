@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC79A182954343000808FF2 /* FinanceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC79A172954343000808FF2 /* FinanceDetails.swift */; };
+		3FCD271B2952E3CA00ECD3C2 /* FinancerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD271A2952E3CA00ECD3C2 /* FinancerApp.swift */; };
+		3FCD271D2952E3CA00ECD3C2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD271C2952E3CA00ECD3C2 /* Home.swift */; };
+		3FCD271F2952E3CB00ECD3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD271E2952E3CB00ECD3C2 /* Assets.xcassets */; };
+		3FCD27222952E3CB00ECD3C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD27212952E3CB00ECD3C2 /* Preview Assets.xcassets */; };
+		84235820296981F00055904A /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423581F296981F00055904A /* UserDetails.swift */; };
+		84235826296991CC0055904A /* BalancesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84235825296991CC0055904A /* BalancesChart.swift */; };
+		84235828296992920055904A /* LogInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84235827296992920055904A /* LogInUser.swift */; };
+		8423582B296994000055904A /* UserEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423582A296994000055904A /* UserEditor.swift */; };
+		8423582E296AA0420055904A /* EditUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423582D296AA0420055904A /* EditUser.swift */; };
+		842F804329A624B2002E8BAB /* ListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F804229A624B2002E8BAB /* ListTile.swift */; };
+		845F16FA29562D64009728F5 /* AddFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F16F929562D64009728F5 /* AddFinance.swift */; };
+		845F16FF2956D1E2009728F5 /* LegalPersonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F16FE2956D1E2009728F5 /* LegalPersonPicker.swift */; };
+		845F17012956FDA3009728F5 /* AddLegalPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F17002956FDA3009728F5 /* AddLegalPerson.swift */; };
+		845F170D295737A6009728F5 /* LegalPersonListTileListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F170C295737A6009728F5 /* LegalPersonListTileListTile.swift */; };
+		845F170F2957405F009728F5 /* LegalPersonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F170E2957405F009728F5 /* LegalPersonDetails.swift */; };
+		845FFFD52961865D0053E9F5 /* FinanceEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFFD42961865D0053E9F5 /* FinanceEditor.swift */; };
+		845FFFD7296186620053E9F5 /* LegalPersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFFD6296186620053E9F5 /* LegalPersonEditor.swift */; };
+		845FFFD92961867A0053E9F5 /* EditLegalPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFFD82961867A0053E9F5 /* EditLegalPerson.swift */; };
+		845FFFDB2961867E0053E9F5 /* EditFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFFDA2961867E0053E9F5 /* EditFinance.swift */; };
+		8469D3A7298588AB00221E44 /* HomeLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469D3A6298588AB00221E44 /* HomeLoading.swift */; };
+		84899C552982D7C2004129FD /* FinanceSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84899C542982D7C2004129FD /* FinanceSort.swift */; };
+		848A44AC29639713002AC782 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848A44AB29639713002AC782 /* Settings.bundle */; };
+		848A44AF29642897002AC782 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A44AE29642897002AC782 /* SettingsBundleHelper.swift */; };
+		849AB4372965CAB100AA8E75 /* ChartDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AB4362965CAB100AA8E75 /* ChartDetails.swift */; };
+		84BF3C8129E9442B006BE657 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF3C8029E9442B006BE657 /* UserInformation.swift */; };
+		84D911BC29868E090043CCA7 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D911BB29868E090043CCA7 /* DeleteButton.swift */; };
+		84E2EF6C29F849DB00F74E16 /* FinancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2EF6B29F849DB00F74E16 /* FinancerTests.swift */; };
+		84E66A0229A2483000EA7559 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669F629A2483000EA7559 /* Persistence.swift */; };
+		84E66A0329A2483000EA7559 /* Finance+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669F929A2483000EA7559 /* Finance+CoreDataClass.swift */; };
+		84E66A0429A2483000EA7559 /* LegalPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669FA29A2483000EA7559 /* LegalPerson+CoreDataClass.swift */; };
+		84E66A0529A2483000EA7559 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669FB29A2483000EA7559 /* User+CoreDataClass.swift */; };
+		84E66A0629A2483000EA7559 /* UserWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669FD29A2483000EA7559 /* UserWrapper.swift */; };
+		84E66A0729A2483000EA7559 /* LegalPersonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669FE29A2483000EA7559 /* LegalPersonWrapper.swift */; };
+		84E66A0829A2483000EA7559 /* FinanceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E669FF29A2483000EA7559 /* FinanceWrapper.swift */; };
+		84E66A0929A2483000EA7559 /* Financer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E66A0029A2483000EA7559 /* Financer.xcdatamodeld */; };
+		84ED450E297BF58000706993 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED450D297BF58000706993 /* ImagePicker.swift */; };
+		84FA2DA22A0FB7D8005CE251 /* FinancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA2DA12A0FB7D8005CE251 /* FinancerUITests.swift */; };
+		84FA2DA42A0FB7D8005CE251 /* FinancerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA2DA32A0FB7D8005CE251 /* FinancerUITestsLaunchTests.swift */; };
+		84FA2DAB2A0FBB2F005CE251 /* UserWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA2DAA2A0FBB2F005CE251 /* UserWrapperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E2EF6D29F849DB00F74E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCD270F2952E3CA00ECD3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCD27162952E3CA00ECD3C2;
+			remoteInfo = Financer;
+		};
+		84FA2DA52A0FB7D8005CE251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCD270F2952E3CA00ECD3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCD27162952E3CA00ECD3C2;
+			remoteInfo = Financer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840D3AF229BB1941007C8B0A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FA8F3D12954690000210F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3FC79A172954343000808FF2 /* FinanceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDetails.swift; sourceTree = "<group>"; };
+		3FCD27172952E3CA00ECD3C2 /* Financer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Financer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCD271A2952E3CA00ECD3C2 /* FinancerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancerApp.swift; sourceTree = "<group>"; };
+		3FCD271C2952E3CA00ECD3C2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3FCD271E2952E3CB00ECD3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCD27212952E3CB00ECD3C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8423581F296981F00055904A /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		84235825296991CC0055904A /* BalancesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesChart.swift; sourceTree = "<group>"; };
+		84235827296992920055904A /* LogInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInUser.swift; sourceTree = "<group>"; };
+		8423582A296994000055904A /* UserEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditor.swift; sourceTree = "<group>"; };
+		8423582D296AA0420055904A /* EditUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUser.swift; sourceTree = "<group>"; };
+		842F804229A624B2002E8BAB /* ListTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTile.swift; sourceTree = "<group>"; };
+		845F16F929562D64009728F5 /* AddFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFinance.swift; sourceTree = "<group>"; };
+		845F16FE2956D1E2009728F5 /* LegalPersonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalPersonPicker.swift; sourceTree = "<group>"; };
+		845F17002956FDA3009728F5 /* AddLegalPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLegalPerson.swift; sourceTree = "<group>"; };
+		845F170C295737A6009728F5 /* LegalPersonListTileListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalPersonListTileListTile.swift; sourceTree = "<group>"; };
+		845F170E2957405F009728F5 /* LegalPersonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalPersonDetails.swift; sourceTree = "<group>"; };
+		845FFFD42961865D0053E9F5 /* FinanceEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceEditor.swift; sourceTree = "<group>"; };
+		845FFFD6296186620053E9F5 /* LegalPersonEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalPersonEditor.swift; sourceTree = "<group>"; };
+		845FFFD82961867A0053E9F5 /* EditLegalPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLegalPerson.swift; sourceTree = "<group>"; };
+		845FFFDA2961867E0053E9F5 /* EditFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFinance.swift; sourceTree = "<group>"; };
+		8469D3A6298588AB00221E44 /* HomeLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoading.swift; sourceTree = "<group>"; };
+		84738F8A2A1A4BCC009BBAAC /* Financer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Financer.entitlements; sourceTree = "<group>"; };
+		84899C542982D7C2004129FD /* FinanceSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceSort.swift; sourceTree = "<group>"; };
+		848A44AB29639713002AC782 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		848A44AE29642897002AC782 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
+		849AB4362965CAB100AA8E75 /* ChartDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetails.swift; sourceTree = "<group>"; };
+		84BF3C8029E9442B006BE657 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		84D911BB29868E090043CCA7 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		84E2EF6929F849DB00F74E16 /* FinancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E2EF6B29F849DB00F74E16 /* FinancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancerTests.swift; sourceTree = "<group>"; };
+		84E669F629A2483000EA7559 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		84E669F929A2483000EA7559 /* Finance+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Finance+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84E669FA29A2483000EA7559 /* LegalPerson+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LegalPerson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84E669FB29A2483000EA7559 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84E669FD29A2483000EA7559 /* UserWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserWrapper.swift; sourceTree = "<group>"; };
+		84E669FE29A2483000EA7559 /* LegalPersonWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalPersonWrapper.swift; sourceTree = "<group>"; };
+		84E669FF29A2483000EA7559 /* FinanceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceWrapper.swift; sourceTree = "<group>"; };
+		84E66A0129A2483000EA7559 /* Financer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Financer.xcdatamodel; sourceTree = "<group>"; };
+		84ED450D297BF58000706993 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		84FA2D9F2A0FB7D8005CE251 /* FinancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA2DA12A0FB7D8005CE251 /* FinancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancerUITests.swift; sourceTree = "<group>"; };
+		84FA2DA32A0FB7D8005CE251 /* FinancerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84FA2DAA2A0FBB2F005CE251 /* UserWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWrapperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCD27142952E3CA00ECD3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2EF6629F849DB00F74E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA2D9C2A0FB7D8005CE251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCD270E2952E3CA00ECD3C2 = {
+			isa = PBXGroup;
+			children = (
+				3FCD27192952E3CA00ECD3C2 /* Financer */,
+				84E2EF6A29F849DB00F74E16 /* FinancerTests */,
+				84FA2DA02A0FB7D8005CE251 /* FinancerUITests */,
+				3FCD27182952E3CA00ECD3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCD27182952E3CA00ECD3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD27172952E3CA00ECD3C2 /* Financer.app */,
+				84E2EF6929F849DB00F74E16 /* FinancerTests.xctest */,
+				84FA2D9F2A0FB7D8005CE251 /* FinancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCD27192952E3CA00ECD3C2 /* Financer */ = {
+			isa = PBXGroup;
+			children = (
+				84738F8A2A1A4BCC009BBAAC /* Financer.entitlements */,
+				3FCD271A2952E3CA00ECD3C2 /* FinancerApp.swift */,
+				84E669F429A2481800EA7559 /* Shared */,
+				848A44AD29642886002AC782 /* Helper */,
+				3FCD274A2952EC4200ECD3C2 /* Views */,
+				3FA8F3D12954690000210F31 /* Info.plist */,
+				3FCD271E2952E3CB00ECD3C2 /* Assets.xcassets */,
+				3FCD27202952E3CB00ECD3C2 /* Preview Content */,
+				848A44AB29639713002AC782 /* Settings.bundle */,
+			);
+			path = Financer;
+			sourceTree = "<group>";
+		};
+		3FCD27202952E3CB00ECD3C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD27212952E3CB00ECD3C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FCD274A2952EC4200ECD3C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8469D3A52985889800221E44 /* Home */,
+				8445A67B2968841400A4FC55 /* Statistics */,
+				8445A67A2968840800A4FC55 /* User */,
+				845F170B2957379D009728F5 /* Components */,
+				845F16FD2956D1B6009728F5 /* LegalPerson */,
+				845F16FB2956D1A5009728F5 /* Finance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84235829296993D00055904A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				84235825296991CC0055904A /* BalancesChart.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		8423582C296A9DB10055904A /* ListTiles */ = {
+			isa = PBXGroup;
+			children = (
+				845F170C295737A6009728F5 /* LegalPersonListTileListTile.swift */,
+			);
+			path = ListTiles;
+			sourceTree = "<group>";
+		};
+		842F804029A624B2002E8BAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				842F804129A624B2002E8BAB /* Components */,
+			);
+			name = Views;
+			path = ../../../shared/Views;
+			sourceTree = "<group>";
+		};
+		842F804129A624B2002E8BAB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				842F804229A624B2002E8BAB /* ListTile.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		843196FE2962EE270093D0A8 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				845FFFD6296186620053E9F5 /* LegalPersonEditor.swift */,
+				845FFFD42961865D0053E9F5 /* FinanceEditor.swift */,
+				8423582A296994000055904A /* UserEditor.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		8445A67A2968840800A4FC55 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8423581F296981F00055904A /* UserDetails.swift */,
+				84235827296992920055904A /* LogInUser.swift */,
+				8423582D296AA0420055904A /* EditUser.swift */,
+				84BF3C8029E9442B006BE657 /* UserInformation.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8445A67B2968841400A4FC55 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				849AB4362965CAB100AA8E75 /* ChartDetails.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		845F16FB2956D1A5009728F5 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				3FC79A172954343000808FF2 /* FinanceDetails.swift */,
+				845F16F929562D64009728F5 /* AddFinance.swift */,
+				845FFFDA2961867E0053E9F5 /* EditFinance.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		845F16FD2956D1B6009728F5 /* LegalPerson */ = {
+			isa = PBXGroup;
+			children = (
+				845F16FE2956D1E2009728F5 /* LegalPersonPicker.swift */,
+				845F17002956FDA3009728F5 /* AddLegalPerson.swift */,
+				845F170E2957405F009728F5 /* LegalPersonDetails.swift */,
+				845FFFD82961867A0053E9F5 /* EditLegalPerson.swift */,
+			);
+			path = LegalPerson;
+			sourceTree = "<group>";
+		};
+		845F170B2957379D009728F5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84D911BA29868DF70043CCA7 /* Buttons */,
+				84899C52298258F6004129FD /* User */,
+				8423582C296A9DB10055904A /* ListTiles */,
+				84235829296993D00055904A /* Statistics */,
+				843196FE2962EE270093D0A8 /* Editor */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8469D3A52985889800221E44 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD271C2952E3CA00ECD3C2 /* Home.swift */,
+				8469D3A6298588AB00221E44 /* HomeLoading.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84899C52298258F6004129FD /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84ED450D297BF58000706993 /* ImagePicker.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		84899C532982D7A6004129FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84899C542982D7C2004129FD /* FinanceSort.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		848A44AD29642886002AC782 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84899C532982D7A6004129FD /* Extensions */,
+				848A44AE29642897002AC782 /* SettingsBundleHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84D911BA29868DF70043CCA7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				84D911BB29868E090043CCA7 /* DeleteButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		84E2EF6A29F849DB00F74E16 /* FinancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E2EF6B29F849DB00F74E16 /* FinancerTests.swift */,
+				84FA2DAA2A0FBB2F005CE251 /* UserWrapperTests.swift */,
+			);
+			path = FinancerTests;
+			sourceTree = "<group>";
+		};
+		84E669F429A2481800EA7559 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				842F804029A624B2002E8BAB /* Views */,
+				84E669F729A2483000EA7559 /* Models */,
+				84E669F529A2483000EA7559 /* Storage */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		84E669F529A2483000EA7559 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				84E669F629A2483000EA7559 /* Persistence.swift */,
+			);
+			name = Storage;
+			path = ../../../shared/Storage;
+			sourceTree = "<group>";
+		};
+		84E669F729A2483000EA7559 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E669F829A2483000EA7559 /* Generated */,
+				84E669FC29A2483000EA7559 /* Wrappers */,
+				84E66A0029A2483000EA7559 /* Financer.xcdatamodeld */,
+			);
+			name = Models;
+			path = ../../../shared/Models;
+			sourceTree = "<group>";
+		};
+		84E669F829A2483000EA7559 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				84E669F929A2483000EA7559 /* Finance+CoreDataClass.swift */,
+				84E669FA29A2483000EA7559 /* LegalPerson+CoreDataClass.swift */,
+				84E669FB29A2483000EA7559 /* User+CoreDataClass.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		84E669FC29A2483000EA7559 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				84E669FD29A2483000EA7559 /* UserWrapper.swift */,
+				84E669FE29A2483000EA7559 /* LegalPersonWrapper.swift */,
+				84E669FF29A2483000EA7559 /* FinanceWrapper.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		84FA2DA02A0FB7D8005CE251 /* FinancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FA2DA12A0FB7D8005CE251 /* FinancerUITests.swift */,
+				84FA2DA32A0FB7D8005CE251 /* FinancerUITestsLaunchTests.swift */,
+			);
+			path = FinancerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCD27162952E3CA00ECD3C2 /* Financer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCD27412952E3CB00ECD3C2 /* Build configuration list for PBXNativeTarget "Financer" */;
+			buildPhases = (
+				3FCD27132952E3CA00ECD3C2 /* Sources */,
+				3FCD27142952E3CA00ECD3C2 /* Frameworks */,
+				3FCD27152952E3CA00ECD3C2 /* Resources */,
+				840D3AF229BB1941007C8B0A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Financer;
+			productName = Financer;
+			productReference = 3FCD27172952E3CA00ECD3C2 /* Financer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E2EF6829F849DB00F74E16 /* FinancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E2EF7129F849DB00F74E16 /* Build configuration list for PBXNativeTarget "FinancerTests" */;
+			buildPhases = (
+				84E2EF6529F849DB00F74E16 /* Sources */,
+				84E2EF6629F849DB00F74E16 /* Frameworks */,
+				84E2EF6729F849DB00F74E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E2EF6E29F849DB00F74E16 /* PBXTargetDependency */,
+			);
+			name = FinancerTests;
+			productName = FinancerTests;
+			productReference = 84E2EF6929F849DB00F74E16 /* FinancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FA2D9E2A0FB7D8005CE251 /* FinancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA2DA92A0FB7D8005CE251 /* Build configuration list for PBXNativeTarget "FinancerUITests" */;
+			buildPhases = (
+				84FA2D9B2A0FB7D8005CE251 /* Sources */,
+				84FA2D9C2A0FB7D8005CE251 /* Frameworks */,
+				84FA2D9D2A0FB7D8005CE251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA2DA62A0FB7D8005CE251 /* PBXTargetDependency */,
+			);
+			name = FinancerUITests;
+			productName = FinancerUITests;
+			productReference = 84FA2D9F2A0FB7D8005CE251 /* FinancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCD270F2952E3CA00ECD3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3FCD27162952E3CA00ECD3C2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					84E2EF6829F849DB00F74E16 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3FCD27162952E3CA00ECD3C2;
+					};
+					84FA2D9E2A0FB7D8005CE251 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3FCD27162952E3CA00ECD3C2;
+					};
+				};
+			};
+			buildConfigurationList = 3FCD27122952E3CA00ECD3C2 /* Build configuration list for PBXProject "Financer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCD270E2952E3CA00ECD3C2;
+			productRefGroup = 3FCD27182952E3CA00ECD3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCD27162952E3CA00ECD3C2 /* Financer */,
+				84E2EF6829F849DB00F74E16 /* FinancerTests */,
+				84FA2D9E2A0FB7D8005CE251 /* FinancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCD27152952E3CA00ECD3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD27222952E3CB00ECD3C2 /* Preview Assets.xcassets in Resources */,
+				848A44AC29639713002AC782 /* Settings.bundle in Resources */,
+				3FCD271F2952E3CB00ECD3C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2EF6729F849DB00F74E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA2D9D2A0FB7D8005CE251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCD27132952E3CA00ECD3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E66A0329A2483000EA7559 /* Finance+CoreDataClass.swift in Sources */,
+				845FFFD52961865D0053E9F5 /* FinanceEditor.swift in Sources */,
+				842F804329A624B2002E8BAB /* ListTile.swift in Sources */,
+				845F16FA29562D64009728F5 /* AddFinance.swift in Sources */,
+				849AB4372965CAB100AA8E75 /* ChartDetails.swift in Sources */,
+				845F170D295737A6009728F5 /* LegalPersonListTileListTile.swift in Sources */,
+				84E66A0629A2483000EA7559 /* UserWrapper.swift in Sources */,
+				84E66A0829A2483000EA7559 /* FinanceWrapper.swift in Sources */,
+				84E66A0529A2483000EA7559 /* User+CoreDataClass.swift in Sources */,
+				8469D3A7298588AB00221E44 /* HomeLoading.swift in Sources */,
+				84E66A0429A2483000EA7559 /* LegalPerson+CoreDataClass.swift in Sources */,
+				84E66A0729A2483000EA7559 /* LegalPersonWrapper.swift in Sources */,
+				845FFFD92961867A0053E9F5 /* EditLegalPerson.swift in Sources */,
+				845FFFD7296186620053E9F5 /* LegalPersonEditor.swift in Sources */,
+				848A44AF29642897002AC782 /* SettingsBundleHelper.swift in Sources */,
+				8423582B296994000055904A /* UserEditor.swift in Sources */,
+				84BF3C8129E9442B006BE657 /* UserInformation.swift in Sources */,
+				3FC79A182954343000808FF2 /* FinanceDetails.swift in Sources */,
+				84235820296981F00055904A /* UserDetails.swift in Sources */,
+				8423582E296AA0420055904A /* EditUser.swift in Sources */,
+				84E66A0929A2483000EA7559 /* Financer.xcdatamodeld in Sources */,
+				3FCD271D2952E3CA00ECD3C2 /* Home.swift in Sources */,
+				84899C552982D7C2004129FD /* FinanceSort.swift in Sources */,
+				84ED450E297BF58000706993 /* ImagePicker.swift in Sources */,
+				845F170F2957405F009728F5 /* LegalPersonDetails.swift in Sources */,
+				845F17012956FDA3009728F5 /* AddLegalPerson.swift in Sources */,
+				3FCD271B2952E3CA00ECD3C2 /* FinancerApp.swift in Sources */,
+				84E66A0229A2483000EA7559 /* Persistence.swift in Sources */,
+				84235826296991CC0055904A /* BalancesChart.swift in Sources */,
+				845FFFDB2961867E0053E9F5 /* EditFinance.swift in Sources */,
+				84D911BC29868E090043CCA7 /* DeleteButton.swift in Sources */,
+				84235828296992920055904A /* LogInUser.swift in Sources */,
+				845F16FF2956D1E2009728F5 /* LegalPersonPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2EF6529F849DB00F74E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA2DAB2A0FBB2F005CE251 /* UserWrapperTests.swift in Sources */,
+				84E2EF6C29F849DB00F74E16 /* FinancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA2D9B2A0FB7D8005CE251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA2DA42A0FB7D8005CE251 /* FinancerUITestsLaunchTests.swift in Sources */,
+				84FA2DA22A0FB7D8005CE251 /* FinancerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E2EF6E29F849DB00F74E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCD27162952E3CA00ECD3C2 /* Financer */;
+			targetProxy = 84E2EF6D29F849DB00F74E16 /* PBXContainerItemProxy */;
+		};
+		84FA2DA62A0FB7D8005CE251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCD27162952E3CA00ECD3C2 /* Financer */;
+			targetProxy = 84FA2DA52A0FB7D8005CE251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FCD273F2952E3CB00ECD3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCD27402952E3CB00ECD3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCD27422952E3CB00ECD3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MainAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Financer/Financer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Financer/Preview Content\"";
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Financer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Financer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jules.Financer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCD27432952E3CB00ECD3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MainAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Financer/Financer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Financer/Preview Content\"";
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Financer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Financer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jules.Financer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E2EF6F29F849DB00F74E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Financer.FinancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Financer";
+			};
+			name = Debug;
+		};
+		84E2EF7029F849DB00F74E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Financer.FinancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Financer";
+			};
+			name = Release;
+		};
+		84FA2DA72A0FB7D8005CE251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Financer.FinancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Financer;
+			};
+			name = Debug;
+		};
+		84FA2DA82A0FB7D8005CE251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q87UDX5898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jules.Financer.FinancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Financer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCD27122952E3CA00ECD3C2 /* Build configuration list for PBXProject "Financer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD273F2952E3CB00ECD3C2 /* Debug */,
+				3FCD27402952E3CB00ECD3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCD27412952E3CB00ECD3C2 /* Build configuration list for PBXNativeTarget "Financer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD27422952E3CB00ECD3C2 /* Debug */,
+				3FCD27432952E3CB00ECD3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E2EF7129F849DB00F74E16 /* Build configuration list for PBXNativeTarget "FinancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2EF6F29F849DB00F74E16 /* Debug */,
+				84E2EF7029F849DB00F74E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA2DA92A0FB7D8005CE251 /* Build configuration list for PBXNativeTarget "FinancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA2DA72A0FB7D8005CE251 /* Debug */,
+				84FA2DA82A0FB7D8005CE251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E66A0029A2483000EA7559 /* Financer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E66A0129A2483000EA7559 /* Financer.xcdatamodel */,
+			);
+			currentVersion = 84E66A0129A2483000EA7559 /* Financer.xcdatamodel */;
+			path = Financer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FCD270F2952E3CA00ECD3C2 /* Project object */;
+}
